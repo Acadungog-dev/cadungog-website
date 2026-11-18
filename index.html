@@ -1,70 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Campus Club Fair</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pangantucan NHS Connect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="top">
-        <h1>PANGANTUCAN NATIONAL HIGHSCHOOL</h1>
-        <p >Find your people. Join a club.</p>
-    </header>
-    <nav>
-        <a href="#clubs">Clubs</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#signup">Sign Up</a>
-        <a href="https://developer.mozilla.org/" target="_blank">CSS Help</a>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="#home">Pangantucan <span>NHS</span> Connect</a>
+    <nav aria-label="Main menu">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#academics">Academics</a>
+      <a href="#enrollment">Enrollment</a>
+      <a href="#news">News &amp; Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact Us</a>
     </nav>
-    <main>
-        <section id="clubs">
-            <h2>Featured Clubs</h2>
-            <p>Three clubs are opening their doors this semester.</p>
-            <p class="note">Membership is free for all students.</p>
+  </div>
+</header>
 
-            <div class="card">
-                <h3>Code Guild</h3>
-                <p>Weekly coding sessions and hackathons.</p>
-                <p>Meets every Tuesday, 4:00 PM.</p>
-            </div>
+<main>
+<section id="home" class="home-section">
+  <div class="hero">
+    <div class="wrap">
+      <span class="tag">Pangantucan, Bukidnon</span>
+      <h1>Welcome to Pangantucan National High School</h1>
+      <p>One organized place for school announcements, enrollment guidance, academic offerings, and contact details for students, parents, and the community.</p>
+      <div class="btns">
+        <a class="btn gold" href="#enrollment">Enrollment Guide</a>
+        <a class="btn line" href="#news">Latest Announcements</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <div class="card featured">
-                <h3>Robotics Circle</h3>
-                <p>Build and program robots as a team.</p>
-                <p>Meets every Wednesday, 3:00 PM.</p>
-            </div>
-        
-            <div class="card">
-                <h3>Design Lab</h3>
-                <p>Posters, layouts, and user interface design.</p>
-                <p>Meets every Friday, 1:00 PM.</p>
-            </div>
-        </section>
-        <section id="schedule">
-            <h2>Schedule</h2>
-            <p>All events happen at the covered court.</p>
-            <ul>
-                <li>8:00 AM - Opening program</li>
-                <li>9:00 AM - Club booths open</li>
-                <li>11:00 AM - Robotics demo</li>
-                <li>1:00 PM - Design showcase</li>
-                <li>3:00 PM - Closing and raffle</li>
-            </ul>
-        </section>
+<section id="about">
+  <div class="wrap">
+    <h2>About Us</h2>
+    <p class="lead">Pangantucan National High School is a public secondary school in Decolores Village, Poblacion, Pangantucan, Bukidnon. It serves junior high school and senior high school learners.</p>
+    <div class="grid">
+      <div class="card"><h3>Our Mission</h3><p>To be provided and approved by the school administration.</p></div>
+      <div class="card"><h3>Our Vision</h3><p>To be provided and approved by the school administration.</p></div>
+      <div class="card"><h3>School History</h3><p>To be provided and approved by the school administration.</p></div>
+    </div>
+  </div>
+</section>
 
-        <section id="signup">
-            <h2>Sign Up</h2>
-            <form>
-                <label for="fullname">Full name</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-                <input type="submit" value="Join">
-            </form>
-        </section>
-    </main>
-    <footer>
-    <p>Campus Club Fair 2026. Made by Cadungog, Angelo S.</p>
-    </footer>
+<section id="academics">
+  <div class="wrap">
+    <h2>Academics</h2>
+    <p class="lead">Programs offered for learners in the school.</p>
+    <div class="grid">
+      <div class="card"><h3>Junior High School</h3><p>Grades 7 to 10 learning program.</p></div>
+      <div class="card"><h3>Senior High School</h3><p>Grades 11 and 12. Tracks and strands will be listed once confirmed by the school.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="enrollment">
+  <div class="wrap">
+    <h2>Enrollment Guide</h2>
+    <p class="lead">Follow these simple steps. Exact requirements and schedules will be confirmed by the school.</p>
+    <ol class="steps">
+      <li><strong>Check the schedule</strong>Look for the official enrollment dates in the announcements.</li>
+      <li><strong>Prepare the requirements</strong>Gather the documents the school asks for, such as the learner’s records.</li>
+      <li><strong>Visit or contact the school</strong>Submit your documents and ask the school office for help.</li>
+      <li><strong>Confirm your enrollment</strong>Make sure the school confirms the learner’s slot and section.</li>
+    </ol>
+    <p class="note">Prototype content. Final steps and requirements to be approved by the school.</p>
+  </div>
+</section>
+
+<section id="news" class="news">
+  <div class="wrap">
+    <h2>News &amp; Events</h2>
+    <p class="lead">School news and reminders will appear here, newest first.</p>
+    <div class="grid">
+      <div class="card"><span class="date">Sample</span><h3>Enrollment Announcement</h3><p>Dates and instructions for enrollment will be posted here.</p></div>
+      <div class="card"><span class="date">Sample</span><h3>School Activity</h3><p>Updates about school programs and student activities.</p></div>
+      <div class="card"><span class="date">Sample</span><h3>Reminders</h3><p>Important notices for students and parents.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <h2>Gallery</h2>
+    <p class="lead">Photos of school activities, facilities, and achievements, shared with consent.</p>
+    <div class="gallery">
+      <div class="ph">School Activities</div>
+      <div class="ph">Facilities</div>
+      <div class="ph">Achievements</div>
+      <div class="ph">Events</div>
+    </div>
+    <p class="note">Photo placeholders. Approved school photos will be added here.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact Us</h2>
+    <p class="lead">Have a question? Reach the school using the details below.</p>
+    <div class="contact">
+      <dl>
+        <div><dt>Address</dt><dd>Decolores Village, Poblacion, Pangantucan, Bukidnon, Philippines</dd></div>
+        <div><dt>Phone and Email</dt><dd>To be provided by the school.</dd></div>
+        <div><dt>Map</dt><dd><a href="https://www.google.com/maps/search/Pangantucan+National+High+School" target="_blank" rel="noopener">Open in Google Maps</a></dd></div>
+      </dl>
+      <form>
+        <div><label for="n">Name</label><input id="n" type="text" placeholder="Your name"></div>
+        <div><label for="e">Email</label><input id="e" type="email" placeholder="you@example.com"></div>
+        <div><label for="m">Message</label><textarea id="m" placeholder="Write your question"></textarea></div>
+        <button type="button">Send Message</button>
+        <p class="note no-margin">Layout only. A static site cannot send messages.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p class="no-margin">&copy; 2026 Pangantucan NHS Connect. A student prototype for Web Systems and Technologies.</p>
+</footer>
 </body>
 </html>
